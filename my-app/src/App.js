@@ -1,9 +1,15 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import PhaserDemo from './GameTest/PhaserDemo'
 
-function App() {
-	return <div className="App">testing</div>;
+const App = () => {
+	return (
+		<div className="App">
+			testing
+			<PhaserDemo />
+		</div>
+	);
 }
 
 export default App;
